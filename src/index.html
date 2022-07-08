@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="h-full">
+        <header class="p-6 md:mb-16" >
+          <nav class="flex justify-between">
+            <div class="flex items-center">
+              <img class="inline" src="../images/logo.png" width="100" alt="site logo">
+            </div>
+            <button class="rounded-lg py-2 px-4 md:px-10 text-[#ffffff] bg-blue-900 drop-shadow-md">Connect</button>
+          </nav>  
+        </header>
+        <main class="md:container flex flex-col justify-between items-center mx-auto md:flex-row md:px-20 lg:px-40">
+          <div class="md:w-1/2 px-2">
+            <h1 class="text-2xl font-bold text-[#555]">Decentralized Fund Me</h1>
+            <p class="text-blue-400 pt-4 pb-6 md:pb-10 text-justify"> 
+              A new way for requesting <span class="text-blue-700">funding</span> from friends and the public.
+              To get started click the button below.
+            </p>
+    
+            <button class="rounded-lg py-2 my-2 text-white px-10 bg-blue-900 drop-shadow-lg">Connect</button>
+            <p class="text-blue-400 text-xs">we rise by lifting others.</p>
+          </div>
+          <figure class="md:w-1/3">
+            <img src="../images/box.png" width="200" alt="card-logo">
+          </figure> 
+        </main>
+        
+        <footer class="absolute w-full py-4 text-center inset-x-0 bottom-0 bg-sky-200">
+          <p>Built by InnThomas </p>  
+        </footer>
+      </div>     
+</body>
+</html>
